@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "work-black": ["WorkSans-Black", "sans-serif"],
-        "work-light": ["WorkSans-Light", "sans-serif"],
-        "work-medium": ["WorkSans-Medium", "sans-serif"],
+        "work-black": ["worksans-black", "sans-serif"],
+        "work-light": ["worksans-light", "sans-serif"],
+        "work-medium": ["worksans-medium", "sans-serif"],
       },
     },
   },
