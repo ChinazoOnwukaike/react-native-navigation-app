@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import React from "react";
 import { router, Stack, useNavigation } from "expo-router";
-import { DrawerActions, StackActions } from "@react-navigation/native";
+import { DrawerActions } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 
 const StackLayout = () => {
