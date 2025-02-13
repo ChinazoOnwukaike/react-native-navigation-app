@@ -20,28 +20,28 @@ const Home = () => {
         </Link> */}
         <CustomButton
           color="primary"
-          onPress={() => router.push("/products")}
+          onPress={() => router.push("/tabs/(stack)/products")}
           className="mb-2"
         >
           Productos
         </CustomButton>
         <CustomButton
           color="secondary"
-          onPress={() => router.push("/profile")}
+          onPress={() => router.push("/tabs/(stack)/profile")}
           className="mb-2"
         >
           Perfil
         </CustomButton>
         <CustomButton
           color="tertiary"
-          onPress={() => router.push("/settings")}
+          onPress={() => router.push("/tabs/(stack)/settings")}
           className="mb-2"
         >
           Ajustes
         </CustomButton>
         <CustomButton
           color="primary"
-          onPress={() => router.push("/products")}
+          onPress={() => router.push("/tabs/(stack)/products")}
           className="mb-2"
           variant="text"
         >
