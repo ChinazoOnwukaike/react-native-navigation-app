@@ -4,7 +4,8 @@ import { Link, Redirect } from "expo-router";
 
 const App = () => {
   return (
-    <Redirect href="/(stack)/home" />
+    // <Redirect href="/(stack)/home" />
+    <Redirect href="/tabs" />
     // <SafeAreaView>
     //   <View className="mt-10 mx-2.5">
     //     <Text className="text-3xl" style={{ fontFamily: "worksans-black" }}>
